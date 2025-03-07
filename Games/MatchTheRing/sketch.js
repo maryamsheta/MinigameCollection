@@ -77,7 +77,7 @@ function endGame() {
   allow = false;
   score = ((playerCircle / targetCircle) * 100) % 100;
 
-  if (score >= 99) {
+  if (score >= 98) {
     textAppear = "PERFECT!";
     win = true;
   } else if (score >= 90) {
